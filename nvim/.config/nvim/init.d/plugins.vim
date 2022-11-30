@@ -10,6 +10,7 @@ Plug 'sheerun/vim-polyglot'  														" Collection of vim language packs
 Plug 'preservim/nerdcommenter' 													" Extra keybinds for commenting
 Plug 'morhetz/gruvbox' 																	" Theme
 Plug 'pearofducks/ansible-vim' 													" Ansible plugin
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' } " Preview markdown
 "Plug 'artur-shaik/vim-javacomplete2' 										" Java plugin
 
 " Initialize plugin system
