@@ -1,0 +1,6 @@
+[user]
+	email = arian.baishya2004@gmail.com
+	name = Arian Baishya
+	signingkey = C5D356B4B2F5CF1D
+[commit]
+	gpgsign = true
