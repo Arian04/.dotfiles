@@ -13,7 +13,7 @@ This is a repository for storing and version-controlling my dotfiles
 
 #### Post-Installation Steps
 - nvim
-	1. `Install [vim-plug](https://github.com/junegunn/vim-plug#neovim) for neovim`
+	1. Install [vim-plug](https://github.com/junegunn/vim-plug#neovim) for neovim
 	2. `$ nvim # Open neovim`
 	3. `Run :PlugUpdate to install and update vim-plug plugins`
 	4. `Run :CocUpdate to install and update coc.nvim plugins`
