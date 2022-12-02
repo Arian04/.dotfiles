@@ -13,7 +13,9 @@ This is a repository for storing and version-controlling my dotfiles
 
 #### Post-Installation Steps
 - nvim
-	1. Install [vim-plug](https://github.com/junegunn/vim-plug#neovim) for neovim
-	2. `$ nvim # Open neovim`
-	3. `Run :PlugUpdate to install and update vim-plug plugins`
-	4. `Run :CocUpdate to install and update coc.nvim plugins`
+	1. Install nodejs
+	2. Install yarn
+	3. Install [vim-plug](https://github.com/junegunn/vim-plug#neovim) for neovim
+	4. `$ nvim # Open neovim`
+	5. `Run :PlugUpdate to install and update vim-plug plugins`
+	6. `Run :CocUpdate to install and update coc.nvim plugins`
