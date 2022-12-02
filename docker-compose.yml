@@ -1,0 +1,17 @@
+# This docker-compose file is meant for testing my dotfiles (and installation instructions) on a fresh system
+# The plan is to:
+# 1. spin it up
+# 2. log in as testuser
+# 3. run the relevant commands
+# 4. check that it works
+
+---
+version: "3.2"
+services:
+  dotfiles-testing:
+    image: fedora:36
+    container_name: dotfiles-testing
+    command: sh -c "
+      useradd -m testuser && 
+      tail -F /dev/null" # This is here to make the container not automatically exit since this will run forever
+    restart: "no"
