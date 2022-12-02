@@ -23,3 +23,4 @@ This is a repository for storing and version-controlling my dotfiles
 - zsh
 	1. Install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 	2. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+	3. Make sure the lines sourcing zsh-autosuggestions and powerlevel10k point to the right paths since that varies by method of installation
