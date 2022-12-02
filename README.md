@@ -19,3 +19,7 @@ This is a repository for storing and version-controlling my dotfiles
 	4. `$ nvim # Open neovim`
 	5. `Run :PlugUpdate to install and update vim-plug plugins`
 	6. `Run :CocUpdate to install and update coc.nvim plugins`
+
+- zsh
+	1. Install [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+	2. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
