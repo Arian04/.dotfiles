@@ -9,7 +9,7 @@ This is a repository for storing and version-controlling my dotfiles
 #### Installation
 1. `$ git clone https://github.com/Arian04/.dotfiles.git`
 2. `$ cd .dotfiles`
-3. `$ stow --target=~ program_name # program_name can be the name of any top-level directory in this repo`
+3. `$ stow --target=/home/$USER program_name # program_name can be the name of any top-level directory in this repo`
 
 #### Post-Installation Steps
 - nvim
