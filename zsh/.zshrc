@@ -84,9 +84,15 @@ alias py="python"
 alias vim="nvim"
 alias lsblk="lsblk -o name,size,mountpoint,fstype,label,uuid"
 alias molecule-login="docker exec -it instance /bin/bash"
+
+# Wake-on-lan mac addresses
 alias wol-laptop="wol 4c:e1:73:42:59:6d"
 alias wol-server="wol 28:d2:44:fe:2f:23"
 alias wol-nas="wol d8:07:b6:54:d2:dd"
+
+# Git
+alias gits="git status"
+alias gitd="git diff"
 
 # Sets title as last command
 preexec() {
