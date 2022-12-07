@@ -49,7 +49,7 @@ export PYTHONSTARTUP='/home/arian/.python_startup.py' # Python startup script
 export TERM=xterm-256color # Fixes tmux colors with zsh
 export PATH=~/bin:$PATH
 export PATH=~/.local/bin:$PATH
-export GPG_TTY=$(tty) # Fixes gpg not being able to prompt for passphrase
+export GPG_TTY=$TTY # Fixes gpg not being able to prompt for passphrase
 
 # Colored man pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
