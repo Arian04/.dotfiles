@@ -43,7 +43,6 @@ bindkey "\e[1;5D" backward-word		# Bind ctrl-left
 bindkey "\e[1;5C" forward-word		# Bind ctrl-right
 
 # Environment variables
-export DISPLAY=:0
 export EDITOR=/usr/bin/nvim
 export BROWSER=/usr/bin/firefox-developer-edition
 export PYTHONSTARTUP='/home/arian/.python_startup.py' # Python startup script
