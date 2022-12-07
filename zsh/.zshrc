@@ -92,6 +92,7 @@ alias wol-nas="wol d8:07:b6:54:d2:dd"
 # Git
 alias gits="git status"
 alias gitd="git diff"
+alias gitdc="git diff --cached"
 
 # Sets title as last command
 preexec() {
